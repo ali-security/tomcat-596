@@ -1000,10 +1000,7 @@
            encoding="ISO-8859-1"
            includeAntRuntime="true"
            includeantruntime="false"
-           optimize="false"
-           source="1.8"
-           target="1.8">
-        <compilerarg value="-Xpreserveallaccess"/>
+           optimize="false">
         <compilerarg value="-Xlint:-options"/>
         <classpath refid="compile.classpath"/>
     </javac>
