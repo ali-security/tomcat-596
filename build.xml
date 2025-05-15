@@ -998,11 +998,14 @@
            deprecation="${compile.deprecation}"
            release="${compile.release}"
            encoding="ISO-8859-1"
-           includeAntRuntime="true" >
-      <!-- Uncomment this to show unchecked warnings:
-      <compilerarg value="-Xlint:unchecked"/>
-      -->
-      <classpath refid="compile.classpath" />
+           includeAntRuntime="true"
+           includeantruntime="false"
+           optimize="false"
+           source="1.8"
+           target="1.8">
+        <compilerarg value="-Xpreserveallaccess"/>
+        <compilerarg value="-Xlint:-options"/>
+        <classpath refid="compile.classpath"/>
     </javac>
     <!-- Copy static resource files -->
     <copy todir="${tomcat.classes}" encoding="UTF-8">

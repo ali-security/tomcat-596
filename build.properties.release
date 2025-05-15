@@ -37,18 +37,18 @@ gpg.exec=/usr/bin/gpg
 # build since this data is embedded in various files, particularly JAR file
 # manifests, as part of the build process.
 #
-# Apache Ant:      Apache Ant(TM) version 1.10.14 compiled on August 16 2023
+# Apache Ant:      Apache Ant(TM) version 1.10.12 compiled on January 17 1970
 #
 # Java Name:       OpenJDK 64-Bit Server VM
 # Java Vendor:     Eclipse Adoptium
-# Java Version:    17.0.10+7
+# Java Version:    17.0.15+6
 
 # The following is provided for information only. Builds will be repeatable
 # whether or not the build environment is consistent with this information.
 #
-# OS:              amd64 Linux 6.7.4-200.fc39.x86_64
+# OS:              amd64 Linux 6.12.5-linuxkit
 # File encoding:   UTF-8
 #
-# Release Manager: remm
-release-java-version=17.0.10+7
-release-ant-version=1.10.14
+# Release Manager: root
+release-java-version=17.0.15+6
+release-ant-version=1.10.12
